@@ -1,0 +1,69 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+#*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Code Blocks 
+*.cbp
+*.depend
+*.layout
+
+# Folder for executable 
+bin/**
+obj/**
+
+# Folder for LIS
+lis-2.0.32/**
+#src/third_party_source/**
+src/third_party_source/lis*
+src/third_party_source/lis*/
+src/third_party_source/lis-2.0.32/config.log
+src/third_party_source/lis-2.0.32/
+lib/**
+share/**
+**.log
+*.log
+*.status
+*.lis.h
+*.lis_config.h
+*lisf.h
+*stamp-h1
+libtool
+lib/
+
+
+# Cmake related
+Makefile
+CMakeCache.txt
+*.cbp
+**.cbp
+CMakeFiles/
+CMakeFiles/**
