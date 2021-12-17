@@ -1,1 +1,1 @@
-# Approximation_class
+# Approximation Class
