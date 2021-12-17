@@ -67,3 +67,4 @@ CMakeCache.txt
 **.cbp
 CMakeFiles/
 CMakeFiles/**
+cmake_install.cmake
