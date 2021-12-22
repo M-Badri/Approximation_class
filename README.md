@@ -16,8 +16,11 @@
 * We have provided a cmake source file for the project that can be employed as ususal. At the command prompt type:
   * `mkdir build`
   * `cd build` 
-  * `cmake .. -Dcmake -D CMAKE_Fortran_COMPILER=Intel`
+  * `cmake .. -D CMAKE_Fortran_COMPILER=ifort`
+  * **NOTE** The makefile is made in the _build_. You can make the project just by typing `make` in the _build_ directory.
+  * Then you can find the executable files in the _build/bin_ directory.
   
+<!---  
 * Additionally, you can use cmake to build a CodeBlocks prject and then work with CodeBlocks IDE. At the command prompt type:
  	* `cmake . -G "CodeBlocks - Unix Makefiles" -D CMAKE_Fortran_COMPILER=Intel`
  	* After that you can find a _cbp_ file of the CodeBlocks in the main directory and it can be used as usual CB project. 
@@ -26,6 +29,7 @@
  		+ project > properties > Build targets
  		+ From the _Type_ drop down list select _Console Application_
  		+ In the output filename section write: bin/the_executable_file_name (in my case: bin/example_1_2d)
+ -->
 
 	
 
